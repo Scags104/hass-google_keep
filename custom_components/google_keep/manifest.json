@@ -1,9 +1,9 @@
 {
-  "domain": "google_keep",
-  "name": "Google Keep",
-  "documentation": "https://github.com/aFrankLion/hass-google_keep",
+  "domain": "google_keep_service",
+  "name": "Google Keep Service",
+  "documentation": "https://github.com/Scags104/hass-google_keep_service/",
   "dependencies": [],
   "version": "0.2.1",
-  "codeowners": ["@aFrankLion"],
+  "codeowners": ["@Scags104"],
   "requirements": ["gkeepapi==0.13.4"]
 }
