@@ -1,21 +1,3 @@
-"""
-Custom component for Home Assistant to enable adding to and updating lists on
-Google Keep. This component relies on gkeepapi, an unofficial client for the
-Google Keep API (https://github.com/kiwiz/gkeepapi).
-
-Example configuration.yaml entry:
-
-google_keep:
-  username: 'this_is_my_username@gmail.com'
-  password: 'this_is_my_Google_App_password'
-
-With this custom component loaded, a new service named google_keep.add_to_list
-is available. This service data call has two inputs: 'title' and 'things', where
-'title' is the title of the Google Keep list, and 'things' is a either a list of
-things, or a string. A string input for 'things' is parsed for multiple things
-separated by 'and'.
-"""
-
 import logging
 
 import voluptuous as vol
@@ -26,7 +8,7 @@ from homeassistant.core import callback
 _LOGGER = logging.getLogger(__name__)
 
 # Domain and component constants and validation
-DOMAIN = "google_keep"
+DOMAIN = "google_keep_service"
 SHOPPING_LIST_DOMAIN = "shopping_list"
 CONF_USERNAME = 'username'    # Google account username
 CONF_PASSWORD = 'password'    # Google App password, https://myaccount.google.com/apppasswords
