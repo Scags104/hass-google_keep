@@ -1,5 +1,5 @@
 {
-  "name": "Google Keep",
+  "name": "Google Keep Service",
   "render_readme": true,
   "country": "US",
   "iot_class": "Cloud Push"
