@@ -1,4 +1,4 @@
-# hass-google_keep
+# hass-google_keep_service
 Custom component for [Home Assistant](https://home-assistant.io/) to enable adding to and updating lists on [Google Keep](https://keep.google.com/).
 
 ## Installation
@@ -6,7 +6,7 @@ Add the `google_keep` folder and its contents to the `custom_components` folder 
 
 ### Example configuration.yaml entry
 ```yaml
-google_keep:
+google_keep_2:
   username: "this_is_my_username@gmail.com"
   password: "this_is_my_Google_App_password"
   list_name: "Grocery"
