@@ -5,5 +5,5 @@
   "dependencies": [],
   "version": "0.2.1",
   "codeowners": ["@Scags104"],
-  "requirements": ["gkeepapi==0.13.4"]
+  "requirements": ["gkeepapi==0.14.2"]
 }
